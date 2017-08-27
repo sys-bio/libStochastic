@@ -9,3 +9,9 @@ Two subprojects are in the solution:
 
 1. A project ot create a DLL
 2. A project to create a simple driver written in C
+
+The python directory contains some examples, the ctypePython bindings and test code.
+
+To use the bindings, copy libStochastic.dll to your python distribution (I uised Python 2.7). import sbBindings to access the library.
+
+To run the tests, load testdsmts.py and run it. This test requires the expected outcome files (00001-results.csv, etc) to be in the same directory as testdsmts.py 
