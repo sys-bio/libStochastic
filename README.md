@@ -26,7 +26,9 @@ Features
 3. Simulate a single trajectory
 4. Simulate a single trajectory on a regular time grid
 5. Run a single time step using moveOneStep
-6. Reaction support: -> any products, x ->, x1 -> x2, x1 + x2 -> any products, 2 x -> any products x1 + x2 + x3 -> any products
+6, Support floating, boundary and anonymous species. 
+7. Set your own rnd seed or derive seed from computer time
+8. Reaction support: -> any products, x ->, x1 -> x2, x1 + x2 -> any products, 2 x -> any products x1 + x2 + x3 -> any products
 
 eg
 
