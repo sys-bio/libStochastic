@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{16990a70-0f23-4908-a248-a5407e0a04c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{3c5e6ed1-8c96-4cdc-be86-f797c058d99e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\gl_doubleArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_integerArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_reactantArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_reaction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_simpleMatrix.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_reactionArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_Stochastic.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_stringArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gl_utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mersenne_twister.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gl_doubleArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_integerArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_reaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_reactionArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_simpleMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_Stochastic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_stringArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gl_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mersenne_twister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
