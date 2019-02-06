@@ -1,5 +1,6 @@
 # libStochastic
 A portable C based library that implements the Gillespie direct method. 
+The following paper describes this implementation: https://www.biorxiv.org/content/10.1101/181446v1
 
 Look in libStochastic.h for details of the API.
 
@@ -14,7 +15,7 @@ Two subprojects are in the solution:
 
 The python directory contains some examples, the ctypePython bindings and test code.
 
-To use the bindings, copy libStochastic.dll to your python distribution (I uised Python 2.7). import sbBindings to access the library.
+To use the bindings, copy libStochastic.dll to your python distribution (I used Python 2.7). import sbBindings to access the library.
 
 To run the tests, load testdsmts.py and run it. This test requires the expected outcome files (00001-results.csv, etc) to be in the same directory as testdsmts.py 
 
