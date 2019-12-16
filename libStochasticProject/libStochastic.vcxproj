@@ -23,7 +23,7 @@
     <ProjectGuid>{AEF57E19-3E5F-41AC-B9DB-91267603A20A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libStochastic</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>libStochastic</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

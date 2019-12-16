@@ -1,0 +1,19 @@
+﻿  gl_doubleArray.cpp
+  gl_integerArray.cpp
+  gl_reaction.cpp
+  gl_reactionArray.cpp
+  gl_simpleMatrix.cpp
+  gl_Stochastic.cpp
+d:\documents\visual studio 2017\projects\libstochastic\src\mersenne_twister.h(37): warning C4005: 'RAND_MAX': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(344): note: see previous definition of 'RAND_MAX'
+d:\documents\visual studio 2017\projects\libstochastic\src\mersenne_twister.h(43): warning C4273: 'srand': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(346): note: see previous definition of 'srand'
+d:\documents\visual studio 2017\projects\libstochastic\src\mersenne_twister.h(49): warning C4273: 'rand': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(348): note: see previous definition of 'rand'
+d:\documents\visual studio 2017\projects\libstochastic\src\gl_stochastic.cpp(70): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  gl_stringArray.cpp
+  gl_utils.cpp
+  mersenne_twister.cpp
+  Generating Code...
+     Creating library D:\Documents\Visual Studio 2017\Projects\libStochastic\x64\Debug\libStochastic.lib and object D:\Documents\Visual Studio 2017\Projects\libStochastic\x64\Debug\libStochastic.exp
+  libStochastic.vcxproj -> D:\Documents\Visual Studio 2017\Projects\libStochastic\x64\Debug\libStochastic.dll

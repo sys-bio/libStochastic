@@ -479,6 +479,10 @@ gl_MATRIX *gl_executeOnGrid (gl_STOCHASTIC_OBJ *gl, double timeStart, double tim
 	result->m[0][0] = timeStart;
 	copyAmountsToMatrix(gl, result, 0);
 	
+	// Prepare space for previousamounts
+	for (int i=0; i<gl->namesOfSpecies->count; i++)
+		ia_append (gl->previousAmounts, 0);
+
 	gridTime = gridTime + dt; // Make way for the second time point
 	while ((gl->currentTime < timeEnd) && (!gl->stopRun) && (currentRow <= numberOfPoints - 1)) {
 
